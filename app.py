@@ -130,7 +130,7 @@ else:
         step=0.01
     )
     confidence_level = st.sidebar.selectbox(
-        "Tingkat Kepercayaan",
+        "Confidence Level",
         ("90%", "95%", "99%"),
         index=1
     )
